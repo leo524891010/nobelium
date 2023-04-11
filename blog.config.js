@@ -2,8 +2,8 @@ const BLOG = {
   title: 'THE BEAUTIFUL STRUGGLE',
   author: 'Hao Liu',
   email: 'hao.liu0708@gmail.com',
-  link: 'https://nobelium.vercel.app',
-  description: 'All about product,',
+  link: 'https://www.thebs.blog',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'America/Los_Angeles', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/haoliu1111',
   seo: {
-    keywords: ['Blog', 'Engineering', 'Product'],
+    keywords: ['Blog', 'Engineering', 'Product', 'SAAS', 'Startup'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
